@@ -1,0 +1,17 @@
+// Settings in here override those in "Default/Preferences.sublime-settings", and
+// are overridden in turn by file type specific settings.
+{
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+    
+    // Determines what character(s) are used to terminate each line in new files.
+    // Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and
+    // 'unix' (LF only).
+    "default_line_ending": "unix",
+
+    // List any packages to ignore here. When removing entries from this list,
+    // a restart may be required if the package contains plugins.
+    //Removed vintage to enable VIM
+    "ignored_packages": ["Vintage"]
+
+}
