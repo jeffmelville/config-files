@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @brief ${1:Brief}
+ *
+ * @param ${2:name} ${3:description}
+ *
+ * @return ${4:returns}
+ */
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>Dox</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
