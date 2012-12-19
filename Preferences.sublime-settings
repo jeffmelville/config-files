@@ -9,6 +9,8 @@
     // 'unix' (LF only).
     "default_line_ending": "unix",
 
+    "tab_completion": false,
+
     // List any packages to ignore here. When removing entries from this list,
     // a restart may be required if the package contains plugins.
     //Removed vintage to enable VIM
