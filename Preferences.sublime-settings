@@ -3,6 +3,11 @@
 {
     // Set to true to insert spaces when tab is pressed
     "translate_tabs_to_spaces": true,
+    "tab_size": 4,
+    "use_tab_stops": true,
+
+    "rulers": [80],
+    "ensure_newline_at_eof_on_save": true,
     
     // Determines what character(s) are used to terminate each line in new files.
     // Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and
