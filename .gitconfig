@@ -1,0 +1,9 @@
+[user]
+	name = Jeff Melville
+	email = devSPAMNOT@jeffmelville.com
+[core]
+	autocrlf = input
+[merge]
+	tool = kdiff3
+[diff]
+	guitool = kdiff3
