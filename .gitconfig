@@ -3,6 +3,7 @@
 	email = devSPAMNOT@jeffmelville.com
 [core]
 	autocrlf = input
+    editor = vim
 [merge]
 	tool = kdiff3
 [diff]
