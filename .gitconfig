@@ -8,3 +8,5 @@
 	tool = kdiff3
 [diff]
 	guitool = kdiff3
+[push]
+	default = tracking
