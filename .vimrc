@@ -53,6 +53,9 @@ let g:snippets_dir="$HOME/.vim/snippets"
 Bundle 'amiorin/vim-project'
 let g:project_use_nerdtree = 1
 call project#rc()
+if filereadable($HOME . "/.vimrc_projects")
+    source $HOME/.vimrc_projects
+endif
 
 " My settings
 set mouse=a
