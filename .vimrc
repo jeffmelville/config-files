@@ -55,9 +55,11 @@ let g:project_use_nerdtree = 1
 call project#rc()
 
 " My settings
+set mouse=a
 colorscheme Monokai
 set paste
 syntax on
+set t_Co=256 " Force 256 color terminal.
 
 set noerrorbells                " No beeps
 set number                      " Show line numbers
