@@ -1,6 +1,7 @@
 [user]
 	name = Jeff Melville
-	email = devSPAMNOT@jeffmelville.com
+	email = dev@\
+jeffmelville.com
 [core]
 	autocrlf = input
     editor = vim
