@@ -58,7 +58,12 @@ if filereadable($HOME . "/.vimrc_projects")
 endif
 
 " My settings
+" Enable mouse actions from the GUI
 set mouse=a
+if &term =~ '^screen'
+    " tmux knows the extended mouse mode
+    set ttymouse=xterm2
+endif
 set t_Co=256 " Force 256 color terminal.
 
 colorscheme Monokai
