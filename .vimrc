@@ -59,10 +59,13 @@ endif
 
 " My settings
 set mouse=a
-colorscheme Monokai
-set paste
-syntax on
 set t_Co=256 " Force 256 color terminal.
+
+colorscheme Monokai
+
+set nopaste " Paste conflicts with snipmate
+set pastetoggle=<F2>
+syntax on
 
 set noerrorbells                " No beeps
 set number                      " Show line numbers
