@@ -22,6 +22,8 @@ Bundle 'tpope/vim-surround'
 Bundle 'tomtom/tcomment_vim'
 Bundle 'gcmt/breeze.vim'
 Bundle 'bling/vim-airline'
+Bundle 'majutsushi/tagbar'
+Bundle 'tpope/vim-fugitive'
 "Bundle 'Raimondi/delimitMate'
 
 "Bundle 'kien/ctrlp.vim'
@@ -102,6 +104,8 @@ set listchars=tab:▒░,trail:▓
 set list
 set colorcolumn=81                " 81 character color column
 set guifont=Inconsolata\ Medium\ 12
+
+nmap <F8> :TagbarToggle<CR>
 
 "
 " Basic shortcuts definitions
