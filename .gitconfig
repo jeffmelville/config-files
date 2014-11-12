@@ -11,3 +11,7 @@ jeffmelville.com
 	guitool = kdiff3
 [push]
 	default = tracking
+[alias]
+	ctags = !.git/hooks/ctags
+[init]
+	templatedir = ~/.git_template
